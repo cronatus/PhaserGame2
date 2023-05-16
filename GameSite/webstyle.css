@@ -1,0 +1,66 @@
+
+
+.header {
+    padding:  15px 0px;
+    color: white;
+    background-color: grey;
+    clear: left;
+    text-align: center;
+    font: 15px "Times New Roman";
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align: center;
+    width: 100%;
+    background-color: lightgray;
+    /*height: 100%;   /* commented out for reference as possible for use in a vertical nav bar  */
+    overflow: auto; /* used to push the list's area across the entire screen making a more aesthetically pleasing nav bar */
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    background-color: lightgray;
+    padding: 8px 16px;
+    text-decoration: none;
+    font: 20px "Times New Roman";
+}
+
+li a.active {
+    background-color: green;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: gray;
+    color: white;
+}
+
+div.content {
+    height: 95%;
+    overflow: auto;
+}
+
+article {
+    background-color: white;
+    padding: 10px;
+    margin: 10px 10px;
+}
+
+.Header {
+    background-color: inherit;
+}
+
+.content {
+    background-color: gray;
+    padding: 5px 0px;
+    /*margin: 0px 10px;*/
+}
